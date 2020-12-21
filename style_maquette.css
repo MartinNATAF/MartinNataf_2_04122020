@@ -263,7 +263,7 @@ a
 
     #titre_header
     {
-        margin: 2em;
+        margin: 1.5em;
         background-color: brown;
         font-size: 1em;
     }
@@ -318,9 +318,17 @@ a
 
     #Filtres
     {
-        display: flex;
-        margin: 4em;
+        margin-left: 1em;
         background-color: cornflowerblue;
+    }
+
+    #mobile
+    {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        background-color: cadetblue;
+        height: 10em;
     }
 
     #appliquer_filtres
@@ -328,11 +336,11 @@ a
         position: relative;
         top : 0.3em;
         right: 1.2em;
-        height: 2.5em;
+        height: 2.45em;
         border-radius: 0 50px 50px 0;
         text-align: center;
         line-height: 0.4em;
-        width: 9em;
+        width: 8.2em;
         background-color: white;
         border : 2px solid #F2F2F2;
     }
@@ -342,7 +350,6 @@ a
         z-index: 1;
         position: relative;
         top : 0.3em;
-        margin-left: 2em;
         height: 2.7em;
         background-color: #DEEBFF;
         text-align: center;
@@ -355,11 +362,39 @@ a
         position: relative;
         top : 0.3em;
         right: 1.2em;
-        height: 2.5em;
+        height: 2.45em;
         border-radius: 0 50px 50px 0;
         text-align: center;
         line-height: 0.4em;
-        width: 9em;
+        width: 8.2em;
+        background-color : #DEEBFF;
+        border : 2px solid #F2F2F2;
+    }
+
+    #appliquer_filtres_s
+    {
+        position: relative;
+        top : 0.3em;
+        right: 1.2em;
+        height: 2.45em;
+        border-radius: 0 50px 50px 0;
+        text-align: center;
+        line-height: 0.4em;
+        width: 6em;
+        background-color: white;
+        border : 2px solid #F2F2F2;
+    }
+
+    #appliquer_filtres_s:hover
+    {
+        position: relative;
+        top : 0.3em;
+        right: 1.2em;
+        height: 2.45em;
+        border-radius: 0 50px 50px 0;
+        text-align: center;
+        line-height: 0.4em;
+        width: 6em;
         background-color : #DEEBFF;
         border : 2px solid #F2F2F2;
     }
@@ -369,7 +404,7 @@ a
         position: relative;
         top : 0.3em;
         right: 1.2em;
-        height: 2.5em;
+        height: 2.45em;
         border-radius: 0 50px 50px 0;
         text-align: center;
         line-height: 0.4em;
@@ -383,7 +418,7 @@ a
         position: relative;
         top : 0.3em;
         right: 1.2em;
-        height: 2.5em;
+        height: 2.45em;
         border-radius: 0 50px 50px 0;
         text-align: center;
         line-height: 0.4em;
@@ -395,7 +430,7 @@ a
     #info
     {
         display: flex;
-        margin: 4em;
+        margin: 1.5em;
         background-color: darkkhaki;
     }
 
@@ -409,8 +444,8 @@ a
         position: relative;
         top : 0.5em;
         text-align: center;
-        width: 1.7em;
-        height: 1.7em;
+        width: 2em;
+        height: 1.5em;
         border-radius: 50px 50px 50px 50px;
         border : 2px solid #F2F2F2;
     }
