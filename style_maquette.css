@@ -488,4 +488,31 @@ a
         position: relative;
         left : 0.5em;
     }
+
+    #partie_1
+    {
+        background-color:beige;
+    }
+
+    #titre_1
+    {
+        margin-top: 2em;
+        margin-left: 1em;
+        display: flex;
+        width: 98%;
+        justify-content: space-between;
+    }
+
+    #balise_photo_xs
+    {
+        margin-left: 1em;
+        display: flex;
+        background-color: white;
+    }
+
+    #balise_photo_xs_partie2
+    {
+        text-align: center;
+        width: 98%;
+    }
 }
