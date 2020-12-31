@@ -22,14 +22,26 @@ a
 
 @media screen and (min-width: 1200px)
 {
+    #première_partie
+    {
+        display: flex;
+    }
+
+    #titre
+    {
+        position: absolute;
+        right: 4.5em;
+    }
     #lien_pages
     {
         display: flex;
         position: absolute;
-        right: 6em;
+        right: 10em;
         word-spacing: 2em;
         color:#000;
         text-decoration:none;
+        justify-content: space-around;
+        width: 16em;
     }
 
     #conteneur
