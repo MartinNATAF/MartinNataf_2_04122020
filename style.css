@@ -302,7 +302,7 @@ a
         width: 98%;
     }
     
-    h1, p, a
+    h1, p, a, h2
     {
         font-family: 'Raleway';
     }
@@ -505,6 +505,7 @@ a
     #partie_1
     {
         background-color:beige;
+        justify-content: space-between;
     }
 
     #titre_1
@@ -518,14 +519,23 @@ a
 
     #balise_photo_xs
     {
+        margin-right: 1em;
         margin-left: 1em;
         display: flex;
         background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 10px 10px 10px 10px;
     }
 
     #balise_photo_xs_partie2
     {
         text-align: center;
         width: 98%;
+    }
+
+    h2 
+    {
+        font-size: 1.2em;
     }
 }
