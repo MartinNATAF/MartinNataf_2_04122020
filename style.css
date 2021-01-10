@@ -11,7 +11,9 @@
 
 header
 {
-    background-color: darkslategrey;
+    position: relative;
+    right: 0.5em;
+    width: 101%;
 }
 
 a
@@ -22,6 +24,15 @@ a
 
 @media screen and (min-width: 1200px)
 {
+    body
+    {
+        width: 99%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
     #première_partie
     {
         display: flex;
@@ -49,13 +60,12 @@ a
         position: top;
         margin : 4em;
         display: flex;
-        background-color: blueviolet;
     }
     
     .test:hover
     {
         color: blue;
-        padding : 3.8em 0 0 0;
+        padding : 4.3em 0 0 0;
         border-top : 0.2em solid blue;
     }
 
@@ -65,7 +75,7 @@ a
         right: 2em;
     }
     
-    h1, p, a
+    h1, p, a, h2
     {
         font-family: 'Raleway';
     }
@@ -73,7 +83,6 @@ a
     #titre_header
     {
         margin : 4em;
-        background-color: brown;
     }
 
     #titre_gras
@@ -86,7 +95,6 @@ a
     {
         display: flex;
         margin: 4em;
-        background-color: burlywood;
     }
 
     #logo
@@ -128,7 +136,6 @@ a
     {
         display: flex;
         margin: 4em;
-        background-color: cornflowerblue;
     }
 
     #appliquer_filtres
@@ -232,7 +239,6 @@ a
     {
         display: flex;
         margin: 4em;
-        background-color: darkkhaki;
     }
 
     #flex1, #flex2, #flex3, #flex4
@@ -262,15 +268,506 @@ a
         display: flex;
     }
 
+    #vue_ordi
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #partie_1
+    {
+        background-color: #F2F2F2;
+        position: relative;
+        padding-bottom: 2em;
+        width: 30em;
+        border-radius: 10px 10px 10px 10px;
+        order: 2;
+    }
+
+    #titre_1
+    {
+        margin-left: 1em;
+        display: flex;
+        width: 98%;
+        justify-content: space-between;
+    }
+
+    #balise_photo_xs
+    {
+        margin-right: 1em;
+        margin-left: 1em;
+        display: flex;
+        background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 10px 10px 10px 10px;
+        z-index: 3;
+    }
+
+    #balise_photo_xs_s
+    {
+        margin-right: 1em;
+        margin-left: 1em;
+        display: flex;
+        background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 10px 10px 10px 10px;
+        z-index: 3;
+        position: relative;
+        top: 1em;
+    }
+
+    #balise_photo_xs_ss
+    {
+        margin-right: 1em;
+        margin-left: 1em;
+        display: flex;
+        background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 10px 10px 10px 10px;
+        z-index: 3;
+        position: relative;
+        top: 2em;
+        max-height: 140px;
+    }
+
+    #balise_photo_xs_partie2
+    {
+        text-align: center;
+        width: 100%;
+        z-index: 2;
+        position: relative;
+        right: 2em;
+        margin-right: -2em;
+        padding-right: -2em;
+        background-color: white;
+        border-radius: 0 10px 10px 0;
+    }
+
+    #balise_photo_xs_partie2:hover
+    {
+        text-align: center;
+        width: 30em;
+        z-index: 2;
+        background-color: #DEEBFF;
+    }
+
+    h2 
+    {
+        font-size: 1em;
+    }
+
+    #logo_xs_matin
+    {
+        z-index: 1;
+        max-width: 50%;
+        max-height: 50%;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    #logo_xs_eau
+    {
+        z-index: 1;
+        max-width: 50%;
+        max-height: 50%;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    #logo_xs_bleu
+    {
+        z-index: 1;
+        max-width: 50%;
+        max-height: 50%;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    #partie_2
+    {
+        background-color: #F2F2F2;
+        padding-bottom: 6em;
+        width: 70em;
+        height: 30em;
+        border-radius: 10px 10px 10px 10px;
+        order: 1;
+    }
+
+    #flexbox_p2
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 4em;
+    }
+
+    #titre_2
+    {
+        margin-left: 4em;
+    }
+
+    #titre_4
+    {
+        margin-left: 1em;
+    }
+
+    #balise_photo_s
+    {
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 12em;
+        overflow: hidden;
+        width: 18em;
+    }
+
+    #balise_photo_s_partie2
+    {
+        text-align: left;
+        position: relative;
+        bottom: 5.6em;
+        background-color: white;
+        width: 100%;
+        height: 4.7em;
+    }
+
+    #balise_photo_s_partie2:hover
+    {
+        text-align: left;
+        position: relative;
+        bottom: 5.6em;
+        background-color: #DEEBFF;
+        width: 100%;
+        height: 4.7em;
+    }
+
+    #logo_s_photo
+    {
+        min-width: 100%;
+        min-height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        position: relative;
+        bottom: 2em;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    #logo_sp_photo
+    {
+        min-width: 100%;
+        min-height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        position: relative;
+        bottom: 13em;
+    }
+    
+    #photo_p
+    {
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 100%;
+        max-height: 100%;
+        position: relative;
+        top: 2em;
+    }
+
+    .proche
+    {
+        position: relative;
+        bottom: 1em;
+    }
+
+    .proche_1
+    {
+        position: relative;
+        bottom: 1.7em;
+    }
+
+    #balise_photo_ss
+    {
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 12em;
+        overflow: hidden;
+        width: 18em;
+    }
+
+    #balise_photo_sss
+    {
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 12em;
+        overflow: hidden;
+        width: 18em;
+    }
+
+    #balise_photo_ssss
+    {
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 12em;
+        overflow: hidden;
+        width: 18em;
+        position: relative;
+        top: 2em;
+    }
+
+    #balise_photo_sssss
+    {
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 12em;
+        overflow: hidden;
+        width: 18em;
+        position: relative;
+        top: 2em;
+    }
+
+
+    #balise_photo_ssssss
+    {
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 12em;
+        overflow: hidden;
+        width: 18em;
+        position: relative;
+        top: 2em;
+    }
+
+    #balise_photo_sp
+    {
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 26.4em;
+        overflow: hidden;
+        width: 18em;
+        box-shadow: 1px 1px 12px #b7aead;
+    }
+
+    #balise_photo_ssp
+    {
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 12em;
+        overflow: hidden;
+        width: 18em;
+        box-shadow: 1px 1px 12px #b7aead;
+    }
+
+    #balise_photo_sssp
+    {
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 12em;
+        overflow: hidden;
+        width: 18em;
+        position: relative;
+        top: 2em;
+        box-shadow: 1px 1px 12px #b7aead;
+    }
+
+    #balise_photo_ssssp
+    {
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 26.4em;
+        overflow: hidden;
+        width: 18em;
+        box-shadow: 1px 1px 12px #b7aead;
+    }
+
+    #balise_photo_sssssp
+    {
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 12em;
+        overflow: hidden;
+        width: 18em;
+        box-shadow: 1px 1px 12px #b7aead;
+    }
+
+    #balise_photo_ssssssp
+    {
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 12em;
+        overflow: hidden;
+        width: 18em;
+        position: relative;
+        top: 2em;
+        box-shadow: 1px 1px 12px #b7aead;
+    }
+
+    #titre_3
+    {
+        position: relative;
+        top: 2em;
+        left: 4em;
+    }
+
+    #partie_3
+    {
+        padding-bottom: 6em;
+        padding-top: 2em;
+        padding-left: 15em;
+    }
+
+    #partie_4
+    {
+        display: flex;
+    }
+
+    #balise_photo_s_partie3
+    {
+        text-align: left;
+        position: relative;
+        bottom: 5.1em;
+        background-color: white;
+        width: 100%;
+        height: 4em;
+    }
+
+    #balise_photo_s_partie3:hover
+    {
+        text-align: left;
+        position: relative;
+        bottom: 5.1em;
+        background-color: #DEEBFF;
+        width: 100%;
+        height: 4em;
+    }
+
+    #titre_p3
+    {
+        position: relative;
+        top: 1em;
+    }
+
+    #balise_photo_sp_partie3
+    {
+        text-align: left;
+        position: relative;
+        bottom: 5.1em;
+        background-color: white;
+        width: 100%;
+        height: 4.4em;
+        border-radius: 0 0 10px 10px;
+    }
+
+    #balise_photo_sp_partie3:hover
+    {
+        text-align: left;
+        position: relative;
+        bottom: 5.1em;
+        background-color: #DEEBFF;
+        width: 100%;
+        height: 4.4em;
+        border-radius: 0 0 10px 10px;
+    }
+
+    footer
+    {
+        background-color: #F2F2F2;
+        width: 101%;
+        position: relative;
+        right:0.5em;
+        top: 2em;
+    }
+
+    #footer
+    {
+        margin: 2em;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #mv
+    {
+        position: relative;
+        right: 13em;
+    }
+
+    footer p:hover
+    {
+        text-decoration: underline;
+    }
 }
 
 
 @media screen and (max-width: 1199px)
-{
+{   
+    #lien_pages a
+    {
+        padding : 0 3em 0 3em;
+        border-bottom : 0.2em solid blue;
+    }
+
+    #lien_pages a:hover
+    {
+        padding : 0 3em 0 3em;
+        border-bottom : 0.2em solid green;
+    }
+
+    body
+    {
+        width: 99%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
     #conteneur
     {
         position: top;
-        background-color: blueviolet;
     }
     
     #image_logo
@@ -297,7 +794,6 @@ a
         font-size: 0.9em;
         display: flex;
         position: absolute;
-        background-color: chartreuse;
         justify-content: space-around;
         width: 98%;
     }
@@ -310,7 +806,6 @@ a
     #titre_header
     {
         margin: 1.5em;
-        background-color: brown;
         font-size: 1em;
     }
 
@@ -324,7 +819,6 @@ a
     {
         display: flex;
         margin: 2em;
-        background-color: burlywood;
     }
 
     #logo
@@ -365,7 +859,6 @@ a
     #Filtres
     {
         margin-left: 1em;
-        background-color: cornflowerblue;
     }
 
     #mobile
@@ -373,7 +866,6 @@ a
         display: flex;
         flex-wrap: wrap;
         align-content: space-between;
-        background-color: cadetblue;
         height: 10em;
     }
 
@@ -477,7 +969,6 @@ a
     {
         display: flex;
         margin: 1.5em;
-        background-color: darkkhaki;
     }
 
     #flex1, #flex2, #flex3, #flex4
@@ -504,9 +995,11 @@ a
 
     #partie_1
     {
-        background-color:beige;
+        background-color:#F2F2F2;
         position: relative;
+        right: 0.5em;
         padding-bottom: 2em;
+        width: 101%;
     }
 
     #titre_1
@@ -528,6 +1021,7 @@ a
         border-color: white;
         border-radius: 10px 10px 10px 10px;
         z-index: 3;
+        max-height: 140px;
     }
 
     #balise_photo_xs_s
@@ -542,6 +1036,7 @@ a
         z-index: 3;
         position: relative;
         top: 0.5em;
+        max-height: 140px;
     }
 
     #balise_photo_xs_ss
@@ -566,7 +1061,20 @@ a
         z-index: 2;
         position: relative;
         right: 2em;
+        margin-right: -2em;
+        padding-right: -2em;
         background-color: white;
+        border-radius: 0 10px 10px 0;
+    }
+
+    #balise_photo_xs_partie2:hover
+    {
+        text-align: center;
+        width: 98%;
+        z-index: 2;
+        position: relative;
+        right: 2em;
+        background-color: #DEEBFF;
     }
 
     h2 
@@ -600,8 +1108,10 @@ a
 
     #partie_2
     {
-        background-color: thistle;
         padding-bottom: 6em;
+        position: relative;
+        right: 0.5em;
+        width: 101%;
     }
 
     #titre_2, #titre_4
@@ -618,6 +1128,21 @@ a
         border-color: white;
         border-radius: 10px 10px 10px 10px;
         height: 12em;
+        overflow: hidden;
+        box-shadow: 1px 1px 12px #b7aead;
+    }
+
+    #balise_photo_sp
+    {
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 12em;
+        overflow: hidden;
+        box-shadow: 1px 1px 12px #b7aead;
     }
 
     #balise_photo_s_partie2
@@ -630,13 +1155,46 @@ a
         height: 4.5em;
     }
 
+    #balise_photo_s_partie2:hover
+    {
+        text-align: left;
+        position: relative;
+        bottom: 5.8em;
+        background-color: #DEEBFF;
+        width: 100%;
+        height: 4.5em;
+    }
+
     #logo_s_photo
     {
         min-width: 100%;
         min-height: 100%;
         max-width: 100%;
         max-height: 100%;
+        position: relative;
+        bottom: 2em;
         border-radius: 10px 10px 10px 10px;
+        box-shadow: 1px 1px 12px #b7aead;
+    }
+
+    #logo_sp_photo
+    {
+        min-width: 100%;
+        min-height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        position: relative;
+        bottom: 15em;
+    }
+    
+    #photo_p
+    {
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 100%;
+        max-height: 100%;
+        position: relative;
+        top: 2em;
     }
 
     .proche
@@ -662,6 +1220,23 @@ a
         height: 12em;
         position: relative;
         top: 1em;
+        overflow: hidden;
+        box-shadow: 1px 1px 12px #b7aead;
+    }
+
+    #balise_photo_ssp
+    {
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 12em;
+        position: relative;
+        top: 1em;
+        overflow: hidden;
+        box-shadow: 1px 1px 12px #b7aead;
     }
 
     #balise_photo_sss
@@ -675,6 +1250,23 @@ a
         height: 12em;
         position: relative;
         top: 2em;
+        overflow: hidden;
+        box-shadow: 1px 1px 12px #b7aead;
+    }
+
+    #balise_photo_sssp
+    {
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 12em;
+        position: relative;
+        top: 2em;
+        overflow: hidden;
+        box-shadow: 1px 1px 12px #b7aead;
     }
 
     #balise_photo_ssss
@@ -688,6 +1280,23 @@ a
         height: 12em;
         position: relative;
         top: 3em;
+        overflow: hidden;
+        box-shadow: 1px 1px 12px #b7aead;
+    }
+
+    #balise_photo_ssssp
+    {
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 12em;
+        position: relative;
+        top: 3em;
+        overflow: hidden;
+        box-shadow: 1px 1px 12px #b7aead;
     }
 
     #balise_photo_sssss
@@ -701,7 +1310,25 @@ a
         height: 12em;
         position: relative;
         top: 4em;
+        overflow: hidden;
+        box-shadow: 1px 1px 12px #b7aead;
     }
+
+    #balise_photo_sssssp
+    {
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 12em;
+        position: relative;
+        top: 4em;
+        overflow: hidden;
+        box-shadow: 1px 1px 12px #b7aead;
+    }
+
 
     #balise_photo_ssssss
     {
@@ -714,6 +1341,23 @@ a
         height: 12em;
         position: relative;
         top: 5em;
+        overflow: hidden;
+        box-shadow: 1px 1px 12px #b7aead;
+    }
+
+    #balise_photo_ssssssp
+    {
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 12em;
+        position: relative;
+        top: 5em;
+        overflow: hidden;
+        box-shadow: 1px 1px 12px #b7aead;
     }
 
     #titre_3
@@ -725,8 +1369,10 @@ a
 
     #partie_3
     {
-        background-color: turquoise;
         padding-bottom: 6em;
+        position: relative;
+        right: 0.5em;
+        width: 101%;
     }
 
     #balise_photo_s_partie3
@@ -739,11 +1385,63 @@ a
         height: 4em;
     }
 
+    #balise_photo_s_partie3:hover
+    {
+        text-align: left;
+        position: relative;
+        bottom: 5.3em;
+        background-color: #DEEBFF;
+        width: 100%;
+        height: 4em;
+    }
+
     #titre_p3
     {
         position: relative;
         top: 1em;
     }
 
+    #balise_photo_sp_partie3
+    {
+        text-align: left;
+        position: relative;
+        bottom: 5.3em;
+        background-color: white;
+        width: 100%;
+        height: 4.4em;
+        border-radius: 0 0 10px 10px;
+    }
 
+    #balise_photo_sp_partie3:hover
+    {
+        text-align: left;
+        position: relative;
+        bottom: 5.3em;
+        background-color: #DEEBFF;
+        width: 100%;
+        height: 4.4em;
+        border-radius: 0 0 10px 10px;
+    }
+
+    footer
+    {
+        background-color: #F2F2F2;
+        width: 101%;
+        position: relative;
+        right:0.5em;
+        padding-bottom: 4em;
+    }
+
+    #footer
+    {
+        background-color:#F2F2F2 ;
+        margin: 2em;
+        position: relative;
+        top: 3em;
+    }
+
+    footer p:hover
+    {
+        text-decoration: underline;
+    }
 }
