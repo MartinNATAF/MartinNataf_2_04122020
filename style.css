@@ -282,6 +282,8 @@ a
         width: 30em;
         border-radius: 10px 10px 10px 10px;
         order: 2;
+        padding-left: 4em;
+        padding-right: 4em;
     }
 
     #titre_1
@@ -563,12 +565,10 @@ a
         margin-right: 1em;
         margin-left: 1em;
         background-color: white;
-        border: solid;
-        border-color: white;
         border-radius: 10px 10px 10px 10px;
-        height: 26.4em;
+        height: 35.4em;
         overflow: hidden;
-        width: 18em;
+        width: 26.5em;
         box-shadow: 1px 1px 12px #b7aead;
     }
 
@@ -577,12 +577,10 @@ a
         margin-right: 1em;
         margin-left: 1em;
         background-color: white;
-        border: solid;
-        border-color: white;
         border-radius: 10px 10px 10px 10px;
-        height: 12em;
+        height: 16.5em;
         overflow: hidden;
-        width: 18em;
+        width: 26.5em;
         box-shadow: 1px 1px 12px #b7aead;
     }
 
@@ -591,12 +589,10 @@ a
         margin-right: 1em;
         margin-left: 1em;
         background-color: white;
-        border: solid;
-        border-color: white;
         border-radius: 10px 10px 10px 10px;
-        height: 12em;
+        height: 16.5em;
         overflow: hidden;
-        width: 18em;
+        width: 26.5em;
         position: relative;
         top: 2em;
         box-shadow: 1px 1px 12px #b7aead;
@@ -607,12 +603,10 @@ a
         margin-right: 1em;
         margin-left: 1em;
         background-color: white;
-        border: solid;
-        border-color: white;
         border-radius: 10px 10px 10px 10px;
-        height: 26.4em;
+        height: 35.4em;
         overflow: hidden;
-        width: 18em;
+        width: 27em;
         box-shadow: 1px 1px 12px #b7aead;
     }
 
@@ -621,12 +615,10 @@ a
         margin-right: 1em;
         margin-left: 1em;
         background-color: white;
-        border: solid;
-        border-color: white;
         border-radius: 10px 10px 10px 10px;
-        height: 12em;
+        height: 16.5em;
         overflow: hidden;
-        width: 18em;
+        width: 26.5em;
         box-shadow: 1px 1px 12px #b7aead;
     }
 
@@ -635,12 +627,10 @@ a
         margin-right: 1em;
         margin-left: 1em;
         background-color: white;
-        border: solid;
-        border-color: white;
         border-radius: 10px 10px 10px 10px;
-        height: 12em;
+        height: 16.5em;
         overflow: hidden;
-        width: 18em;
+        width: 26.5em;
         position: relative;
         top: 2em;
         box-shadow: 1px 1px 12px #b7aead;
@@ -657,7 +647,7 @@ a
     {
         padding-bottom: 6em;
         padding-top: 2em;
-        padding-left: 15em;
+        padding-left: 2em;
     }
 
     #partie_4
@@ -779,7 +769,7 @@ a
     {
         position: absolute;
         right: 2em;
-        top: 1.5em;
+        top: 1.3em;
     }
 
     #première_partie
@@ -833,6 +823,7 @@ a
     {
         border-radius: 0 0 0 0;
         height: 2em;
+        width: 10em;
         border-color: #F2F2F2;
         font-family: 'Raleway';
         font-weight: bold;
@@ -1137,8 +1128,6 @@ a
         margin-right: 1em;
         margin-left: 1em;
         background-color: white;
-        border: solid;
-        border-color: white;
         border-radius: 10px 10px 10px 10px;
         height: 12em;
         overflow: hidden;
@@ -1229,8 +1218,6 @@ a
         margin-right: 1em;
         margin-left: 1em;
         background-color: white;
-        border: solid;
-        border-color: white;
         border-radius: 10px 10px 10px 10px;
         height: 12em;
         position: relative;
@@ -1259,8 +1246,6 @@ a
         margin-right: 1em;
         margin-left: 1em;
         background-color: white;
-        border: solid;
-        border-color: white;
         border-radius: 10px 10px 10px 10px;
         height: 12em;
         position: relative;
@@ -1289,8 +1274,6 @@ a
         margin-right: 1em;
         margin-left: 1em;
         background-color: white;
-        border: solid;
-        border-color: white;
         border-radius: 10px 10px 10px 10px;
         height: 12em;
         position: relative;
@@ -1319,8 +1302,6 @@ a
         margin-right: 1em;
         margin-left: 1em;
         background-color: white;
-        border: solid;
-        border-color: white;
         border-radius: 10px 10px 10px 10px;
         height: 12em;
         position: relative;
@@ -1350,8 +1331,6 @@ a
         margin-right: 1em;
         margin-left: 1em;
         background-color: white;
-        border: solid;
-        border-color: white;
         border-radius: 10px 10px 10px 10px;
         height: 12em;
         position: relative;
