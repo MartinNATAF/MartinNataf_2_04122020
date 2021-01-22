@@ -57,7 +57,6 @@ a
 
     #conteneur
     {
-        position: top;
         margin : 4em;
         display: flex;
     }
@@ -138,7 +137,7 @@ a
         margin: 4em;
     }
 
-    #appliquer_filtres
+    .appliquer_filtres
     {
         position: relative;
         top : 0.3em;
@@ -152,7 +151,7 @@ a
         border : 2px solid #F2F2F2;
     }
 
-    #logo_filtres
+    .logo_filtres
     {
         z-index: 1;
         position: relative;
@@ -193,7 +192,7 @@ a
         border : 2px solid #F2F2F2;
     }
 
-    #appliquer_filtres:hover
+    .appliquer_filtres:hover
     {
         position: relative;
         top : 0.3em;
@@ -335,23 +334,20 @@ a
         max-height: 140px;
     }
 
-    #balise_photo_xs_partie2
+    .balise_photo_xs_partie2
     {
         text-align: center;
-        width: 100%;
         z-index: 2;
+        min-width: 57%;
         position: relative;
         right: 2em;
-        margin-right: -2em;
-        padding-right: -2em;
         background-color: white;
         border-radius: 0 10px 10px 0;
     }
 
-    #balise_photo_xs_partie2:hover
+    .balise_photo_xs_partie2:hover
     {
         text-align: center;
-        width: 30em;
         z-index: 2;
         background-color: #DEEBFF;
     }
@@ -425,7 +421,7 @@ a
         width: 18em;
     }
 
-    #balise_photo_s_partie2
+    .balise_photo_s_partie2
     {
         text-align: left;
         position: relative;
@@ -435,7 +431,7 @@ a
         height: 4.7em;
     }
 
-    #balise_photo_s_partie2:hover
+    .balise_photo_s_partie2:hover
     {
         text-align: left;
         position: relative;
@@ -445,7 +441,7 @@ a
         height: 4.7em;
     }
 
-    #logo_s_photo
+    .logo_s_photo
     {
         min-width: 100%;
         min-height: 100%;
@@ -655,7 +651,7 @@ a
         display: flex;
     }
 
-    #balise_photo_s_partie3
+    .balise_photo_s_partie3
     {
         text-align: left;
         position: relative;
@@ -665,7 +661,7 @@ a
         height: 4em;
     }
 
-    #balise_photo_s_partie3:hover
+    .balise_photo_s_partie3:hover
     {
         text-align: left;
         position: relative;
@@ -675,7 +671,7 @@ a
         height: 4em;
     }
 
-    #titre_p3
+    .titre_p3
     {
         position: relative;
         top: 1em;
@@ -719,7 +715,7 @@ a
         justify-content: space-around;
     }
 
-    #mv
+    .mv
     {
         position: relative;
         right: 13em;
@@ -757,7 +753,8 @@ a
 
     #conteneur
     {
-        position: top;
+        position: relative;
+        top: 0;
     }
     
     #image_logo
@@ -860,7 +857,7 @@ a
         height: 10em;
     }
 
-    #appliquer_filtres
+    .appliquer_filtres
     {
         position: relative;
         top : 0.3em;
@@ -874,7 +871,7 @@ a
         border : 2px solid #F2F2F2;
     }
 
-    #logo_filtres
+    .logo_filtres
     {
         z-index: 1;
         position: relative;
@@ -886,7 +883,7 @@ a
         border-radius: 50px 50px 50px 50px;
     }
 
-    #appliquer_filtres:hover
+    .appliquer_filtres:hover
     {
         position: relative;
         top : 0.3em;
@@ -1045,7 +1042,7 @@ a
         max-height: 140px;
     }
 
-    #balise_photo_xs_partie2
+    .balise_photo_xs_partie2
     {
         text-align: center;
         width: 98%;
@@ -1058,7 +1055,7 @@ a
         border-radius: 0 10px 10px 0;
     }
 
-    #balise_photo_xs_partie2:hover
+    .balise_photo_xs_partie2:hover
     {
         text-align: center;
         width: 98%;
@@ -1134,7 +1131,7 @@ a
         box-shadow: 1px 1px 12px #b7aead;
     }
 
-    #balise_photo_s_partie2
+    .balise_photo_s_partie2
     {
         text-align: left;
         position: relative;
@@ -1144,7 +1141,7 @@ a
         height: 4.5em;
     }
 
-    #balise_photo_s_partie2:hover
+    .balise_photo_s_partie2:hover
     {
         text-align: left;
         position: relative;
@@ -1154,7 +1151,7 @@ a
         height: 4.5em;
     }
 
-    #logo_s_photo
+    .logo_s_photo
     {
         min-width: 100%;
         min-height: 100%;
@@ -1354,7 +1351,7 @@ a
         width: 101%;
     }
 
-    #balise_photo_s_partie3
+    .balise_photo_s_partie3
     {
         text-align: left;
         position: relative;
@@ -1364,7 +1361,7 @@ a
         height: 4em;
     }
 
-    #balise_photo_s_partie3:hover
+    .balise_photo_s_partie3:hover
     {
         text-align: left;
         position: relative;
@@ -1374,7 +1371,7 @@ a
         height: 4em;
     }
 
-    #titre_p3
+    .titre_p3
     {
         position: relative;
         top: 1em;
