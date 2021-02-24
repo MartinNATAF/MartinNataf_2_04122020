@@ -21,7 +21,7 @@
                     </div>
 
                     <div id="titre">
-                        <a href="" class="test vue2" id="titre_gras">S'inscrire</a>
+                        <a href="" class="hover_link" id="titre_gras">S'inscrire</a>
                     </div>
 
                 </div>
@@ -29,11 +29,11 @@
                 <div id="lien_pages">
 
                         <div>
-                            <a class="test vue1" href="#partie_2" id="titre_actif">Hébergements</a>
+                            <a class="hover_link" href="#partie_2" id="titre_actif">Hébergements</a>
                         </div>
 
                         <div>
-                            <a href="#partie_3" class="test vue3">Activités</a>
+                            <a href="#partie_3" class="hover_link">Activités</a>
                         </div>
 
                 </div>
@@ -50,7 +50,7 @@
             <nav id="barre_de_recherche">
 
                 <div id="logo">
-                    <span style="position: relative; top: 0.4em;">
+                    <span id="logo_span">
                         <i class="fas fa-map-marker-alt"></i>
                     </span>
                 </div>
@@ -71,9 +71,9 @@
                 <p><strong>Filtres</strong></p>
 
                 <div id="mobile">
-                    <div id="flex1">
+                    <div class="flex_div">
                         <div class="logo_filtres">
-                            <span style="position: relative; top: 0.7em; color: #0065FC;">
+                            <span class="font_style">
                                 <i class="fas fa-money-bill-wave"></i>
                             </span>
                         </div>
@@ -82,20 +82,20 @@
                         </div></a>
                     </div>
 
-                    <div id="flex2">
+                    <div class="flex_div">
                         <div class="logo_filtres">
-                            <span style="position: relative; top: 0.7em; color: #0065FC;">
+                            <span class="font_style">
                                 <i class="fas fa-child"></i>
                             </span>
                         </div>
-                        <a href=""><div id="appliquer_filtres_s">
+                        <a href=""><div id="appliquer_filtres_familial">
                             <p><strong>Familial</strong></p>
                         </div></a>
                     </div>
 
-                    <div id="flex3">
+                    <div class="flex_div">
                         <div class="logo_filtres">
-                            <span style="position: relative; top: 0.7em; color: #0065FC;">
+                            <span class="font_style">
                                 <i class="fas fa-heart"></i>
                             </span>
                         </div>
@@ -104,13 +104,13 @@
                         </div></a>
                     </div>
 
-                    <div id="flex4">
+                    <div class="flex_div">
                         <div class="logo_filtres">
-                            <span style="position: relative; top: 0.7em; color: #0065FC;">
+                            <span class="font_style">
                                 <i class="fas fa-dog"></i>
                             </span>
                         </div>
-                        <a href=""><div id="appliquer_filtres_sp">
+                        <a href=""><div id="appliquer_filtres_animaux">
                             <p><strong>Animaux autorisés</strong></p>
                         </div></a>
                     </div>
@@ -120,7 +120,7 @@
 
             <div id="info">
                 <div id="info_logo">
-                    <span style="position: relative; top: 0.2em; color: #0065FC;">
+                    <span id="info_style">
                         <i class="fas fa-info fa-sm"></i>
                     </span>
                 </div>
@@ -135,92 +135,21 @@
                 <div id="titre_1">
                     <h4>Les plus populaires</h4>
                     <div id="logo_1">
-                        <span style="background-color: #F2F2F2; position: relative; top: 1.5em; right: 2em;">
+                        <span class="logo1_style">
                             <i class="fas fa-chart-line fa-lg"></i>
                         </span>         
                     </div>
                 </div>
-                <a href=""><div id="balise_photo_xs">
-                    <img src="images/hebergements/4_small/image_3_small.jpg" id="logo_xs_matin" alt="Hôtel_le_soleil_du_ matin" />
-                    <div class="balise_photo_xs_partie2">
-                        <h2>Hôtel le soleil du matin</h2>
-                        <p>Nuit à partir de 128<strong>€</strong></p>
-                        <div>
-                            <span style="position: relative; color: #0065FC; ">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </span>
+                <div id="flex_p1">
+                    <a href=""><div id="balise_photo_hotel_le_soleil">
+                        <div class="size">
+                            <img src="images/hebergements/4_small/image_3_small.jpg" id="logo_p1_matin" alt="Hôtel_le_soleil_du_ matin" />
                         </div>
-                    </div>
-                </div></a>
-                <a href=""><div id="balise_photo_xs_s">
-                    <img src="images/hebergements/4_small/image_2_small.jpg" id="logo_xs_eau" alt="Au_coeur_de_l'eau" />
-                    <div class="balise_photo_xs_partie2">
-                        <h2>Au coeur de l'eau chambre d'hôte</h2>
-                        <p>Nuit à partir de 71<strong>€</strong></p>
-                        <div>
-                            <span style="position: relative; color: #0065FC; ">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </span>
-                            <span style="color: #F2F2F2;">
-                                <i class="fas fa-star"></i>
-                            </span>
-                        </div>
-                    </div>
-                </div></a>
-                <a href=""><div id="balise_photo_xs_ss">
-                    <img src="images/hebergements/4_small/image_5_small.jpg" id="logo_xs_bleu" alt="tout_bleu" />
-                    <div class="balise_photo_xs_partie2">
-                        <h2>Hôtel Tout Bleu et Blanc</h2>
-                        <p>Nuit à partir de 68<strong>€</strong></p>
-                        <div>
-                            <span style="position: relative; color: #0065FC; ">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </span>
-                            <span style="color: #F2F2F2;">
-                                <i class="fas fa-star"></i>
-                            </span>
-                        </div>
-                    </div>
-                </div></a>
-            </nav>
-            <nav id="partie_2">
-                <h4 id="titre_2">Hébergements à Marseille</h4>
-                <div id="flexbox_p2">
-                    <a href=""><div id="balise_photo_s">
-                        <img src="images/hebergements/4_small/image_6_small.jpg" class="logo_s_photo" alt="Auberge_Cannebière" />
-                        <div class="balise_photo_s_partie2">
-                            <h2>Auberge la Cannebière</h2>
-                            <p class="proche">Nuit à partir de 29<strong>€</strong></p>
-                            <div class="proche_1">
-                                <span style="position: relative; color: #0065FC; ">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </span>
-                                <span style="color: #F2F2F2;">
-                                    <i class="fas fa-star"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div></a>
-                    <a href=""><div id="balise_photo_ss">
-                        <img src="images/hebergements/4_small/image_8_small.jpg" class="logo_s_photo" alt="Hôtel_du_port" />
-                        <div class="balise_photo_s_partie2">
-                            <h2>Hôtel du port</h2>
-                            <p class="proche">Nuit à partir de 52<strong>€</strong></p>
-                            <div class="proche_1">
-                                <span style="position: relative; color: #0065FC; ">
+                        <div class="photos_partie2">
+                            <h2>Hôtel le soleil du matin</h2>
+                            <p>Nuit à partir de 128<strong>€</strong></p>
+                            <div>
+                                <span class="star_style">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -230,122 +159,224 @@
                             </div>
                         </div>
                     </div></a>
-                    <a href=""><div id="balise_photo_sss">
-                        <img src="images/hebergements/4_small/image_7_small.jpg" class="logo_s_photo" alt="Hôtel_les_mouettes" />
-                        <div class="balise_photo_s_partie2">
-                            <h2>Hôtel Les mouettes</h2>
-                            <p class="proche">Nuit à partir de 76<strong>€</strong></p>
-                            <div class="proche_1">
-                                <span style="position: relative; color: #0065FC; ">
+                    <a href=""><div id="balise_photo_hotel_au_coeur_de_l_eau">
+                        <div class="size">
+                            <img src="images/hebergements/4_small/image_2_small.jpg" id="logo_p1_eau" alt="Au_coeur_de_l'eau" />
+                        </div>
+                        <div class="photos_partie2">
+                            <h2>Au coeur de l'eau chambre d'hôte</h2>
+                            <p>Nuit à partir de 71<strong>€</strong></p>
+                            <div>
+                                <span class="star_style">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                 </span>
-                                <span style="color: #F2F2F2;">
+                                <span class="star_style_grey">
                                     <i class="fas fa-star"></i>
                                 </span>
                             </div>
                         </div>
                     </div></a>
-                    <a href=""><div id="balise_photo_ssss">
-                        <img src="images/hebergements/4_small/image_1_small.jpg" class="logo_s_photo" alt="Hôtel_la_mer" />
-                        <div class="balise_photo_s_partie2">
-                            <h2>Hôtel de la mer</h2>
-                            <p class="proche">Nuit à partir de 46<strong>€</strong></p>
-                            <div class="proche_1">
-                                <span style="position: relative; color: #0065FC; ">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </span>
-                                <span style="color: #F2F2F2;">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </span>
-                            </div>
+                    <a href=""><div id="balise_photo_hotel_bleu_et_blanc">
+                        <div class="size">
+                            <img src="images/hebergements/4_small/image_5_small.jpg" id="logo_p1_bleu" alt="tout_bleu" />
                         </div>
-                    </div></a>
-                    <a href=""><div id="balise_photo_sssss">
-                        <img src="images/hebergements/4_small/image_9_small.jpg" class="logo_s_photo" alt="Hôtel_la_mer" />
-                        <div class="balise_photo_s_partie2">
-                            <h2>Auberge Le Panier</h2>
-                            <p class="proche">Nuit à partir de 29<strong>€</strong></p>
-                            <div class="proche_1">
-                                <span style="position: relative; color: #0065FC; ">
+                        <div class="photos_partie2">
+                            <h2>Hôtel Tout Bleu et Blanc</h2>
+                            <p>Nuit à partir de 68<strong>€</strong></p>
+                            <div>
+                                <span class="star_style">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                 </span>
-                                <span style="color: #F2F2F2;">
-                                    <i class="fas fa-star"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div></a>
-                    <a href=""><div id="balise_photo_ssssss">
-                        <img src="images/hebergements/4_small/image_4_small.jpg" class="logo_s_photo" alt="Hôtel_amina" />
-                        <div class="balise_photo_s_partie2">
-                            <h2>Hôtel chez Amina</h2>
-                            <p class="proche">Nuit à partir de 96<strong>€</strong></p>
-                            <div class="proche_1">
-                                <span style="position: relative; color: #0065FC; ">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
+                                <span class="star_style_grey">
                                     <i class="fas fa-star"></i>
                                 </span>
                             </div>
                         </div>
                     </div></a>
                 </div>
-                
+            </nav>
+            <nav id="partie_2">
+                <h4 id="titre_2">Hébergements à Marseille</h4>
+                <div id="flexbox_p2">
+                    <div class="balise_hotel">
+                        <a href=""><div id="balise_photo_hotel_canebiere">
+                            <div class="size_partie2">
+                                <img src="images/hebergements/4_small/image_6_small.jpg" class="logo_p2_p3_photo" alt="Auberge_Cannebière" />
+                            </div>
+                            <div class="balise_photo_hotel">
+                                <h2>Auberge la Cannebière</h2>
+                                <p class="proche">Nuit à partir de 29<strong>€</strong></p>
+                                <div class="proche_1">
+                                    <span class="star_style">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span class="star_style_grey">
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <div class="balise_hotel">
+                        <a href=""><div id="balise_photo_hotel_du_port">
+                            <div class="size_partie2">
+                                <img src="images/hebergements/4_small/image_8_small.jpg" class="logo_p2_p3_photo" alt="Hôtel_du_port" />
+                            </div>
+                            <div class="balise_photo_hotel">
+                                <h2>Hôtel du port</h2>
+                                <p class="proche">Nuit à partir de 52<strong>€</strong></p>
+                                <div class="proche_1">
+                                    <span class="star_style">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <div class="balise_hotel">
+                        <a href=""><div id="balise_photo_hotel_les_mouettes">
+                            <div class="size_partie2">
+                                <img src="images/hebergements/4_small/image_7_small.jpg" class="logo_p2_p3_photo" alt="Hôtel_les_mouettes" />
+                            </div>
+                            <div class="balise_photo_hotel">
+                                <h2>Hôtel Les mouettes</h2>
+                                <p class="proche">Nuit à partir de 76<strong>€</strong></p>
+                                <div class="proche_1">
+                                    <span class="star_style">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span class="star_style_grey">
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <div class="balise_hotel">
+                        <a href=""><div id="balise_photo_hotel_la_mer">
+                            <div class="size_partie2">
+                                <img src="images/hebergements/4_small/image_1_small.jpg" class="logo_p2_p3_photo" alt="Hôtel_la_mer" />
+                            </div>
+                            <div class="balise_photo_hotel">
+                                <h2>Hôtel de la mer</h2>
+                                <p class="proche">Nuit à partir de 46<strong>€</strong></p>
+                                <div class="proche_1">
+                                    <span class="star_style">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span class="star_style_grey">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <div class="balise_hotel">
+                        <a href=""><div id="balise_photo_hotel_le_panier">
+                            <div class="size_partie2">
+                                <img src="images/hebergements/4_small/image_9_small.jpg" class="logo_p2_p3_photo" alt="Hôtel_la_mer" />
+                            </div>
+                            <div class="balise_photo_hotel">
+                                <h2>Auberge Le Panier</h2>
+                                <p class="proche">Nuit à partir de 29<strong>€</strong></p>
+                                <div class="proche_1">
+                                    <span class="star_style">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span class="star_style_grey">
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <div class="balise_hotel">
+                        <a href=""><div id="balise_photo_hotel_amina">
+                            <div class="size_partie2">
+                                <img src="images/hebergements/4_small/image_4_small.jpg" class="logo_p2_p3_photo" alt="Hôtel_amina" />
+                            </div>
+                            <div class="balise_photo_hotel">
+                                <h2>Hôtel chez Amina</h2>
+                                <p class="proche">Nuit à partir de 96<strong>€</strong></p>
+                                <div class="proche_1">
+                                    <span class="star_style">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                </div>
                 <h4 id="titre_3"><a href="">afficher plus</a></h4>
             </nav>
         </nav>
         <nav id="partie_3">
             <h1 id="titre_4">Activités à Marseille</h1>
             <nav id="partie_4">
-                <a href=""><div id="balise_photo_sp">
-                    <img src="images/activites/4_small/vieux_port.jpg" class="logo_s_photo" alt="vieux port" />
-                    <div class="balise_photo_s_partie3">
+                <a href=""><div id="balise_photo_activite_vieux_port">
+                    <img src="images/activites/4_small/vieux_port.jpg" class="logo_p2_p3_photo" alt="vieux port" />
+                    <div class="balise_photo_activite">
                         <h2 class="titre_p3">Vieux Port</h2>
                     </div>
                 </div></a>
                 <div>
-                    <a href=""><div id="balise_photo_ssp">
+                    <a href=""><div id="balise_photo_activite_pomegues">
                         <div id="photo_p">
                             <img src="images/activites/4_small/pomègues.jpg" id="logo_sp_photo" alt="Pomègues" />
                         </div>
-                        <div id="balise_photo_sp_partie3">
+                        <div id="balise_photo_activite_fort">
                             <h2 class="titre_p3">Fort de Pomègues</h2>
                         </div>
                     </div></a>
-                    <a href=""><div id="balise_photo_sssp">
-                        <img src="images/activites/4_small/frioul.jpg" class="logo_s_photo" alt="frioul" />
-                        <div class="balise_photo_s_partie3">
+                    <a href=""><div id="balise_photo_activite_frioul">
+                        <img src="images/activites/4_small/frioul.jpg" class="logo_p2_p3_photo" alt="frioul" />
+                        <div class="balise_photo_activite">
                             <h2 class="titre_p3">îles du Frioul</h2>
                         </div>
                     </div></a>
                 </div>
-                <a href=""><div id="balise_photo_ssssp">
-                    <img src="images/activites/4_small/calanques.jpg" class="logo_s_photo" alt="calanques" />
-                    <div class="balise_photo_s_partie3">
+                <a href=""><div id="balise_photo_activite_calanques">
+                    <img src="images/activites/4_small/calanques.jpg" class="logo_p2_p3_photo" alt="calanques" />
+                    <div class="balise_photo_activite">
                         <h2 class="titre_p3">Parc National des Calanques</h2>
                     </div>
                 </div></a>
                 <div>
-                    <a href=""><div id="balise_photo_sssssp">
-                        <img src="images/activites/4_small/garde.jpg" class="logo_s_photo" alt="garde" />
-                        <div class="balise_photo_s_partie3">
+                    <a href=""><div id="balise_photo_activite_notre_dame">
+                        <img src="images/activites/4_small/garde.jpg" class="logo_p2_p3_photo" alt="garde" />
+                        <div class="balise_photo_activite">
                             <h2 class="titre_p3">Notre-Dame-De-La-Garde</h2>
                         </div>
                     </div></a>
-                    <a href=""><div id="balise_photo_ssssssp">
-                        <img src="images/activites/4_small/longchamp.jpg" class="logo_s_photo" alt="longchamp" />
-                        <div class="balise_photo_s_partie3">
+                    <a href=""><div id="balise_photo_activite_longchamp">
+                        <img src="images/activites/4_small/longchamp.jpg" class="logo_p2_p3_photo" alt="longchamp" />
+                        <div class="balise_photo_activite">
                             <h2 class="titre_p3">Parc Longchamp</h2>
                         </div>
                     </div></a>
@@ -354,18 +385,18 @@
         </nav>
         <footer>
             <div id="footer">
-                <div class="mv">
+                <div class="flexbox_footer">
                     <h2>A propos</h2>
                     <a href=""><p>Fonctionnement du site</p></a>
                     <a href=""><p>conditions générale de vente</p></a>
                     <a href=""><p>Données et confidentialité</p></a>
                 </div>
-                <div class="mv">
+                <div class="flexbox_footer">
                     <h2>Nos hébergements</h2>
                     <a href=""><p>Charte qualité</p></a>
                     <a href=""><p>Soumettre votre hôtel</p></a>
                 </div>
-                <div class="mv">
+                <div class="flexbox_footer">
                     <h2>Assistance</h2>
                     <a href=""><p>Charte d'aide</p></a>
                     <a href=""><p>Nous contacter</p></a>

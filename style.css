@@ -22,8 +22,46 @@ a
     color: black;
 }
 
-@media screen and (min-width: 1200px)
+@media screen and (min-width: 901px)
 {
+    .star_style_grey
+    {
+        color: #F2F2F2;
+    }
+
+    .star_style
+    {
+        color: #0065FC;
+    }
+
+    .logo1_style
+    {
+        background-color: #F2F2F2;
+        position: relative;
+        top: 1.5em; 
+        right: 2em;
+    }
+
+    #info_style
+    {
+        position: relative; 
+        top: 0.2em; 
+        color: #0065FC;
+    }
+
+    .font_style
+    {
+        position: relative; 
+        top: 0.7em; 
+        color: #0065FC;
+    }
+
+    #logo_span
+    {
+        position: relative; 
+        top: 0.4em;
+    }
+
     h4
     {
     font-size: 1.5em;
@@ -33,7 +71,7 @@ a
     {
         width: 99%;
         height: 100%;
-        position: absolute;
+        position: relative;
         top: 0;
         left: 0;
     }
@@ -66,11 +104,20 @@ a
         display: flex;
     }
     
-    .test:hover
+    .hover_link:hover
     {
         color: blue;
         padding : 4.3em 0 0 0;
         border-top : 0.2em solid blue;
+    }
+
+    .balise_hotel
+    {
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-bottom: 4%;
+        width: 25%;
+        height: 50%;
     }
 
     #titres
@@ -169,7 +216,7 @@ a
         border-radius: 50px 50px 50px 50px;
     }
 
-    #appliquer_filtres_s
+    #appliquer_filtres_familial
     {
         position: relative;
         top : 0.3em;
@@ -183,7 +230,7 @@ a
         border : 2px solid #F2F2F2;
     }
 
-    #appliquer_filtres_s:hover
+    #appliquer_filtres_familial:hover
     {
         position: relative;
         top : 0.3em;
@@ -211,7 +258,7 @@ a
         border : 2px solid #F2F2F2;
     }
 
-    #appliquer_filtres_sp
+    #appliquer_filtres_animaux
     {
         position: relative;
         top : 0.3em;
@@ -225,7 +272,7 @@ a
         border : 2px solid #F2F2F2;
     }
 
-    #appliquer_filtres_sp:hover
+    #appliquer_filtres_animaux:hover
     {
         position: relative;
         top : 0.3em;
@@ -245,7 +292,7 @@ a
         margin: 4em;
     }
 
-    #flex1, #flex2, #flex3, #flex4
+    .flex_div
     {
         display: flex;
     }
@@ -276,18 +323,23 @@ a
     {
         display: flex;
         justify-content: space-around;
+        width: 100%;
+        height: 42em;
     }
 
     #partie_1
     {
         background-color: #F2F2F2;
         position: relative;
-        padding-bottom: 2em;
-        width: 30em;
+        width: 25%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
         border-radius: 10px 10px 10px 10px;
         order: 2;
-        padding-left: 4em;
-        padding-right: 4em;
+        padding-left: 1em;
+        padding-right: 1em;
     }
 
     #titre_1
@@ -298,8 +350,9 @@ a
         justify-content: space-between;
     }
 
-    #balise_photo_xs
+    #balise_photo_hotel_le_soleil
     {
+        height: 100%;
         margin-right: 1em;
         margin-left: 1em;
         display: flex;
@@ -310,36 +363,50 @@ a
         z-index: 3;
     }
 
-    #balise_photo_xs_s
+    #balise_photo_hotel_au_coeur_de_l_eau
     {
         margin-right: 1em;
         margin-left: 1em;
         display: flex;
+        height: 100%;
         background-color: white;
         border: solid;
         border-color: white;
         border-radius: 10px 10px 10px 10px;
         z-index: 3;
-        position: relative;
-        top: 1em;
     }
 
-    #balise_photo_xs_ss
+    #flex_p1
+    {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #balise_photo_hotel_bleu_et_blanc
     {
         margin-right: 1em;
         margin-left: 1em;
         display: flex;
+        height: 100%;
         background-color: white;
         border: solid;
         border-color: white;
         border-radius: 10px 10px 10px 10px;
+        overflow: hidden;
         z-index: 3;
-        position: relative;
-        top: 2em;
-        max-height: 140px;
     }
 
-    .balise_photo_xs_partie2
+    .size
+    {
+        max-height: 9em;
+        height: 9em;
+        max-width: 15em;
+        overflow: hidden;
+    }
+
+    .photos_partie2
     {
         text-align: center;
         z-index: 2;
@@ -350,7 +417,7 @@ a
         border-radius: 0 10px 10px 0;
     }
 
-    .balise_photo_xs_partie2:hover
+    .photos_partie2:hover
     {
         text-align: center;
         z-index: 2;
@@ -362,36 +429,48 @@ a
         font-size: 1em;
     }
 
-    #logo_xs_matin
+    #logo_p1_matin
     {
-        z-index: 1;
-        max-width: 50%;
-        max-height: 50%;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
         border-radius: 10px 10px 10px 10px;
     }
 
-    #logo_xs_eau
+    #logo_p1_eau
     {
-        z-index: 1;
-        max-width: 50%;
-        max-height: 50%;
+        object-fit: cover;
         border-radius: 10px 10px 10px 10px;
+        width: 100%;
+        height: 100%;
     }
 
-    #logo_xs_bleu
+    .size_partie2
     {
-        z-index: 1;
-        max-width: 50%;
-        max-height: 50%;
+        max-height: 8em;
+        height: 8em;
+        width: 100%;
+        overflow: hidden;
+        border-radius: 10px 10px 0 0;
+    }
+
+    
+
+    #logo_p1_bleu
+    {
+        object-fit: cover;
+        width: 100%;
+        height: 200% ;
         border-radius: 10px 10px 10px 10px;
+        position: relative;
+        bottom: 4em;
     }
 
     #partie_2
     {
         background-color: #F2F2F2;
-        padding-bottom: 6em;
-        width: 70em;
-        height: 30em;
+        width: 65%;
+        height: 100%;
         border-radius: 10px 10px 10px 10px;
         order: 1;
     }
@@ -400,7 +479,6 @@ a
     {
         display: flex;
         flex-wrap: wrap;
-        margin-left: 4em;
     }
 
     #titre_2
@@ -410,33 +488,32 @@ a
 
     #titre_4
     {
-        margin-left: 1em;
+        margin-bottom: 2em;
+        margin-left: 2em;
+        margin-top: 4em;
     }
 
-    #balise_photo_s
+    #balise_photo_hotel_canebiere
     {
-        margin-right: 1em;
-        margin-left: 1em;
+        height: 100%;
+        width: 100%;
         background-color: white;
         border: solid;
         border-color: white;
         border-radius: 10px 10px 10px 10px;
-        height: 12em;
-        overflow: hidden;
-        width: 18em;
+        z-index: 3;
     }
 
-    .balise_photo_s_partie2
+    .balise_photo_hotel
     {
         text-align: left;
         position: relative;
-        bottom: 5.6em;
         background-color: white;
         width: 100%;
         height: 4.7em;
     }
 
-    .balise_photo_s_partie2:hover
+    .balise_photo_hotel:hover
     {
         text-align: left;
         position: relative;
@@ -446,15 +523,11 @@ a
         height: 4.7em;
     }
 
-    .logo_s_photo
+    .logo_p2_p3_photo
     {
-        min-width: 100%;
-        min-height: 100%;
-        max-width: 100%;
-        max-height: 100%;
-        position: relative;
-        bottom: 2em;
-        border-radius: 10px 10px 10px 10px;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
     }
 
     #logo_sp_photo
@@ -489,188 +562,161 @@ a
         bottom: 1.7em;
     }
 
-    #balise_photo_ss
+    #balise_photo_hotel_du_port
     {
-        margin-right: 1em;
-        margin-left: 1em;
+        height: 100%;
+        width: 100%;
         background-color: white;
         border: solid;
         border-color: white;
         border-radius: 10px 10px 10px 10px;
-        height: 12em;
-        overflow: hidden;
-        width: 18em;
+        z-index: 3;
     }
 
-    #balise_photo_sss
+    #balise_photo_hotel_les_mouettes
     {
-        margin-right: 1em;
-        margin-left: 1em;
+        height: 100%;
+        width: 100%;
         background-color: white;
         border: solid;
         border-color: white;
         border-radius: 10px 10px 10px 10px;
-        height: 12em;
-        overflow: hidden;
-        width: 18em;
+        z-index: 3;
     }
 
-    #balise_photo_ssss
+    #balise_photo_hotel_la_mer
     {
-        margin-right: 1em;
-        margin-left: 1em;
+        height: 100%;
+        width: 100%;
         background-color: white;
         border: solid;
         border-color: white;
         border-radius: 10px 10px 10px 10px;
-        height: 12em;
-        overflow: hidden;
-        width: 18em;
-        position: relative;
-        top: 2em;
+        z-index: 3;
     }
 
-    #balise_photo_sssss
+    #balise_photo_hotel_le_panier
     {
-        margin-right: 1em;
-        margin-left: 1em;
+        height: 100%;
+        width: 100%;
         background-color: white;
         border: solid;
         border-color: white;
         border-radius: 10px 10px 10px 10px;
-        height: 12em;
-        overflow: hidden;
-        width: 18em;
-        position: relative;
-        top: 2em;
+        z-index: 3;
     }
 
 
-    #balise_photo_ssssss
+    #balise_photo_hotel_amina
     {
-        margin-right: 1em;
-        margin-left: 1em;
+        height: 100%;
+        width: 100%;
         background-color: white;
         border: solid;
         border-color: white;
         border-radius: 10px 10px 10px 10px;
-        height: 12em;
+        z-index: 3;
+    }
+
+    #balise_photo_activite_vieux_port
+    {
+        margin-left: 3em;
+        background-color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 55%;
         overflow: hidden;
-        width: 18em;
+        width: 80%;
+        box-shadow: 1px 1px 12px #b7aead;
+    }
+
+    #balise_photo_activite_pomegues
+    {
+        background-color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 25%;
+        overflow: hidden;
+        width: 80%;
+        box-shadow: 1px 1px 12px #b7aead;
+    }
+
+    #balise_photo_activite_frioul
+    {
+        background-color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 25%;
+        overflow: hidden;
+        width: 80%;
         position: relative;
-        top: 2em;
-    }
-
-    #balise_photo_sp
-    {
-        margin-right: 1em;
-        margin-left: 1em;
-        background-color: white;
-        border-radius: 10px 10px 10px 10px;
-        height: 35.4em;
-        overflow: hidden;
-        width: 26.5em;
+        top: 5%;
         box-shadow: 1px 1px 12px #b7aead;
     }
 
-    #balise_photo_ssp
+    #balise_photo_activite_calanques
     {
-        margin-right: 1em;
-        margin-left: 1em;
         background-color: white;
         border-radius: 10px 10px 10px 10px;
-        height: 16.5em;
+        height: 55%;
         overflow: hidden;
-        width: 26.5em;
+        width: 80%;
         box-shadow: 1px 1px 12px #b7aead;
     }
 
-    #balise_photo_sssp
+    #balise_photo_activite_notre_dame
     {
-        margin-right: 1em;
-        margin-left: 1em;
         background-color: white;
         border-radius: 10px 10px 10px 10px;
-        height: 16.5em;
+        height: 25%;
         overflow: hidden;
-        width: 26.5em;
+        width: 80%;
+        box-shadow: 1px 1px 12px #b7aead;
+    }
+
+    #balise_photo_activite_longchamp
+    {
+        background-color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 25%;
+        overflow: hidden;
+        width: 80%;
         position: relative;
-        top: 2em;
-        box-shadow: 1px 1px 12px #b7aead;
-    }
-
-    #balise_photo_ssssp
-    {
-        margin-right: 1em;
-        margin-left: 1em;
-        background-color: white;
-        border-radius: 10px 10px 10px 10px;
-        height: 35.4em;
-        overflow: hidden;
-        width: 27em;
-        box-shadow: 1px 1px 12px #b7aead;
-    }
-
-    #balise_photo_sssssp
-    {
-        margin-right: 1em;
-        margin-left: 1em;
-        background-color: white;
-        border-radius: 10px 10px 10px 10px;
-        height: 16.5em;
-        overflow: hidden;
-        width: 26.5em;
-        box-shadow: 1px 1px 12px #b7aead;
-    }
-
-    #balise_photo_ssssssp
-    {
-        margin-right: 1em;
-        margin-left: 1em;
-        background-color: white;
-        border-radius: 10px 10px 10px 10px;
-        height: 16.5em;
-        overflow: hidden;
-        width: 26.5em;
-        position: relative;
-        top: 2em;
+        top: 5%;
         box-shadow: 1px 1px 12px #b7aead;
     }
 
     #titre_3
     {
         position: relative;
-        top: 2em;
-        left: 4em;
+        bottom: 2em;
+        left: 2em;
     }
 
     #partie_3
     {
-        padding-bottom: 6em;
-        padding-top: 2em;
-        padding-left: 2em;
+        width: 100%;
+        height: 80%;
     }
 
     #partie_4
     {
         display: flex;
+        width: 100%;
     }
 
-    .balise_photo_s_partie3
+    .balise_photo_activite
     {
         text-align: left;
         position: relative;
-        bottom: 5.1em;
+        bottom: 5em;
         background-color: white;
         width: 100%;
         height: 4em;
     }
 
-    .balise_photo_s_partie3:hover
+    .balise_photo_activite:hover
     {
         text-align: left;
         position: relative;
-        bottom: 5.1em;
+        bottom: 5em;
         background-color: #DEEBFF;
         width: 100%;
         height: 4em;
@@ -682,35 +728,36 @@ a
         top: 1em;
     }
 
-    #balise_photo_sp_partie3
+    #balise_photo_activite_fort
     {
         text-align: left;
         position: relative;
-        bottom: 5.1em;
+        bottom: 4.8em;
         background-color: white;
         width: 100%;
-        height: 4.4em;
+        height: 4em;
         border-radius: 0 0 10px 10px;
     }
 
-    #balise_photo_sp_partie3:hover
+    #balise_photo_activite_fort:hover
     {
         text-align: left;
         position: relative;
-        bottom: 5.1em;
+        bottom: 4.8em;
         background-color: #DEEBFF;
         width: 100%;
-        height: 4.4em;
+        height: 4em;
         border-radius: 0 0 10px 10px;
     }
 
     footer
     {
         background-color: #F2F2F2;
-        width: 101%;
-        position: relative;
-        right:0.5em;
-        top: 2em;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
     }
 
     #footer
@@ -720,10 +767,10 @@ a
         justify-content: space-around;
     }
 
-    .mv
+    .flexbox_footer
     {
         position: relative;
-        right: 13em;
+        right: 10%;
     }
 
     footer p:hover
@@ -733,8 +780,53 @@ a
 }
 
 
-@media screen and (max-width: 1199px)
-{   h4
+@media screen and (max-width: 900px)
+{
+    .star_style_grey
+    {
+        color: #F2F2F2;
+    }
+
+
+    .flex_div
+    {
+        display: flex;
+    }
+
+    .star_style
+    {
+        color: #0065FC;
+    }
+
+    .logo1_style
+    {
+        background-color: #F2F2F2;
+        position: relative;
+        top: 1.5em; 
+        right: 2em;
+    }
+
+    #info_style
+    {
+        position: relative; 
+        top: 0.2em; 
+        color: #0065FC;
+    }
+
+    .font_style
+    {
+        position: relative; 
+        top: 0.7em; 
+        color: #0065FC;
+    }
+    
+    #logo_span
+    {
+        position: relative; 
+        top: 0.4em;
+    }
+
+    h4
     {
         font-size: 1.4em;
     }
@@ -906,7 +998,7 @@ a
         border : 2px solid #F2F2F2;
     }
 
-    #appliquer_filtres_s
+    #appliquer_filtres_familial
     {
         position: relative;
         top : 0.3em;
@@ -920,7 +1012,7 @@ a
         border : 2px solid #F2F2F2;
     }
 
-    #appliquer_filtres_s:hover
+    #appliquer_filtres_familial:hover
     {
         position: relative;
         top : 0.3em;
@@ -934,7 +1026,7 @@ a
         border : 2px solid #F2F2F2;
     }
 
-    #appliquer_filtres_sp
+    #appliquer_filtres_animaux
     {
         position: relative;
         top : 0.3em;
@@ -948,7 +1040,7 @@ a
         border : 2px solid #F2F2F2;
     }
 
-    #appliquer_filtres_sp:hover
+    #appliquer_filtres_animaux:hover
     {
         position: relative;
         top : 0.3em;
@@ -1008,7 +1100,7 @@ a
         justify-content: space-between;
     }
 
-    #balise_photo_xs
+    #balise_photo_hotel_le_soleil
     {
         margin-right: 1em;
         margin-left: 1em;
@@ -1021,7 +1113,7 @@ a
         max-height: 140px;
     }
 
-    #balise_photo_xs_s
+    #balise_photo_hotel_au_coeur_de_l_eau
     {
         margin-right: 1em;
         margin-left: 1em;
@@ -1036,7 +1128,7 @@ a
         max-height: 140px;
     }
 
-    #balise_photo_xs_ss
+    #balise_photo_hotel_bleu_et_blanc
     {
         margin-right: 1em;
         margin-left: 1em;
@@ -1051,7 +1143,7 @@ a
         max-height: 140px;
     }
 
-    .balise_photo_xs_partie2
+    .photos_partie2
     {
         text-align: center;
         min-width: 60%;
@@ -1062,7 +1154,7 @@ a
         border-radius: 0 10px 10px 0;
     }
 
-    .balise_photo_xs_partie2:hover
+    .photos_partie2:hover
     {
         text-align: center;
         width: 98%;
@@ -1077,7 +1169,7 @@ a
         font-size: 1.2em;
     }
 
-    #logo_xs_matin
+    #logo_p1_matin
     {
         z-index: 1;
         max-width: 50%;
@@ -1085,7 +1177,7 @@ a
         border-radius: 10px 10px 10px 10px;
     }
 
-    #logo_xs_eau
+    #logo_p1_eau
     {
         z-index: 1;
         max-width: 50%;
@@ -1093,7 +1185,7 @@ a
         border-radius: 10px 10px 10px 10px;
     }
 
-    #logo_xs_bleu
+    #logo_p1_bleu
     {
         z-index: 1;
         max-width: 50%;
@@ -1114,7 +1206,7 @@ a
         margin-left: 1em;
     }
 
-    #balise_photo_s
+    #balise_photo_hotel_canebiere
     {
         margin-right: 1em;
         margin-left: 1em;
@@ -1127,7 +1219,7 @@ a
         box-shadow: 1px 1px 12px #b7aead;
     }
 
-    #balise_photo_sp
+    #balise_photo_activite_vieux_port
     {
         margin-right: 1em;
         margin-left: 1em;
@@ -1138,7 +1230,7 @@ a
         box-shadow: 1px 1px 12px #b7aead;
     }
 
-    .balise_photo_s_partie2
+    .balise_photo_hotel
     {
         text-align: left;
         position: relative;
@@ -1148,7 +1240,7 @@ a
         height: 4.5em;
     }
 
-    .balise_photo_s_partie2:hover
+    .balise_photo_hotel:hover
     {
         text-align: left;
         position: relative;
@@ -1158,7 +1250,7 @@ a
         height: 4.5em;
     }
 
-    .logo_s_photo
+    .logo_p2_p3_photo
     {
         min-width: 100%;
         min-height: 100%;
@@ -1202,7 +1294,7 @@ a
         bottom: 1.7em;
     }
 
-    #balise_photo_ss
+    #balise_photo_hotel_du_port
     {
         margin-right: 1em;
         margin-left: 1em;
@@ -1217,7 +1309,7 @@ a
         box-shadow: 1px 1px 12px #b7aead;
     }
 
-    #balise_photo_ssp
+    #balise_photo_activite_pomegues
     {
         margin-right: 1em;
         margin-left: 1em;
@@ -1230,7 +1322,7 @@ a
         box-shadow: 1px 1px 12px #b7aead;
     }
 
-    #balise_photo_sss
+    #balise_photo_hotel_les_mouettes
     {
         margin-right: 1em;
         margin-left: 1em;
@@ -1245,7 +1337,7 @@ a
         box-shadow: 1px 1px 12px #b7aead;
     }
 
-    #balise_photo_sssp
+    #balise_photo_activite_frioul
     {
         margin-right: 1em;
         margin-left: 1em;
@@ -1258,7 +1350,7 @@ a
         box-shadow: 1px 1px 12px #b7aead;
     }
 
-    #balise_photo_ssss
+    #balise_photo_hotel_la_mer
     {
         margin-right: 1em;
         margin-left: 1em;
@@ -1273,7 +1365,7 @@ a
         box-shadow: 1px 1px 12px #b7aead;
     }
 
-    #balise_photo_ssssp
+    #balise_photo_activite_calanques
     {
         margin-right: 1em;
         margin-left: 1em;
@@ -1286,7 +1378,7 @@ a
         box-shadow: 1px 1px 12px #b7aead;
     }
 
-    #balise_photo_sssss
+    #balise_photo_hotel_le_panier
     {
         margin-right: 1em;
         margin-left: 1em;
@@ -1301,7 +1393,7 @@ a
         box-shadow: 1px 1px 12px #b7aead;
     }
 
-    #balise_photo_sssssp
+    #balise_photo_activite_notre_dame
     {
         margin-right: 1em;
         margin-left: 1em;
@@ -1315,7 +1407,7 @@ a
     }
 
 
-    #balise_photo_ssssss
+    #balise_photo_hotel_amina
     {
         margin-right: 1em;
         margin-left: 1em;
@@ -1330,7 +1422,7 @@ a
         box-shadow: 1px 1px 12px #b7aead;
     }
 
-    #balise_photo_ssssssp
+    #balise_photo_activite_longchamp
     {
         margin-right: 1em;
         margin-left: 1em;
@@ -1358,7 +1450,7 @@ a
         width: 101%;
     }
 
-    .balise_photo_s_partie3
+    .balise_photo_activite
     {
         text-align: left;
         position: relative;
@@ -1368,7 +1460,7 @@ a
         height: 4em;
     }
 
-    .balise_photo_s_partie3:hover
+    .balise_photo_activite:hover
     {
         text-align: left;
         position: relative;
@@ -1384,7 +1476,7 @@ a
         top: 1em;
     }
 
-    #balise_photo_sp_partie3
+    #balise_photo_activite_fort
     {
         text-align: left;
         position: relative;
@@ -1395,7 +1487,7 @@ a
         border-radius: 0 0 10px 10px;
     }
 
-    #balise_photo_sp_partie3:hover
+    #balise_photo_activite_fort:hover
     {
         text-align: left;
         position: relative;
