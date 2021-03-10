@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: 'Raleway';
-    src: url('raleway-v18-latin-regular.eot'), format('eot'),
-         url('raleway-v18-latin-regular.svg'), format('svg'),
-         url('raleway-v18-latin-regular.ttf'), format('ttf'),
-         url('raleway-v18-latin-regular.woff'), format('woff'),
-         url('raleway-v18-latin-regular.woff2'), format('woff2'),
+    src: url(/font/raleway-v18-latin-regular.eot), format('eot'),
+        url(/font/raleway-v18-latin-regular.svg), format('svg'),
+        url(/font/raleway-v18-latin-regular.ttf), format('ttf'),
+        url(/font/raleway-v18-latin-regular.woff), format('woff'),
+        url(/font/raleway-v18-latin-regular.woff2), format('woff2');
 }
 
 a
@@ -192,9 +192,9 @@ a
     .appliquer_filtres
     {
         position: relative;
-        top : 0.3em;
+        top : 0.32em;
         right: 1.2em;
-        height: 2.45em;
+        height: 2.6em;
         border-radius: 0 50px 50px 0;
         text-align: center;
         line-height: 0.4em;
@@ -219,9 +219,9 @@ a
     #appliquer_filtres_familial
     {
         position: relative;
-        top : 0.3em;
+        top : 0.32em;
         right: 1.2em;
-        height: 2.45em;
+        height: 2.6em;
         border-radius: 0 50px 50px 0;
         text-align: center;
         line-height: 0.4em;
@@ -233,9 +233,9 @@ a
     #appliquer_filtres_familial:hover
     {
         position: relative;
-        top : 0.3em;
+        top : 0.32em;
         right: 1.2em;
-        height: 2.45em;
+        height: 2.6em;
         border-radius: 0 50px 50px 0;
         text-align: center;
         line-height: 0.4em;
@@ -247,9 +247,9 @@ a
     .appliquer_filtres:hover
     {
         position: relative;
-        top : 0.3em;
+        top : 0.32em;
         right: 1.2em;
-        height: 2.45em;
+        height: 2.6em;
         border-radius: 0 50px 50px 0;
         text-align: center;
         line-height: 0.4em;
@@ -261,9 +261,9 @@ a
     #appliquer_filtres_animaux
     {
         position: relative;
-        top : 0.3em;
+        top : 0.32em;
         right: 1.2em;
-        height: 2.45em;
+        height: 2.6em;
         border-radius: 0 50px 50px 0;
         text-align: center;
         line-height: 0.4em;
@@ -275,9 +275,9 @@ a
     #appliquer_filtres_animaux:hover
     {
         position: relative;
-        top : 0.3em;
+        top : 0.32em;
         right: 1.2em;
-        height: 2.45em;
+        height: 2.6em;
         border-radius: 0 50px 50px 0;
         text-align: center;
         line-height: 0.4em;
