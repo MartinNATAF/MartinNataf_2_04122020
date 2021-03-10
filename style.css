@@ -6,7 +6,7 @@
          url('raleway-v18-latin-regular.svg'), format('svg'),
          url('raleway-v18-latin-regular.ttf'), format('ttf'),
          url('raleway-v18-latin-regular.woff'), format('woff'),
-         url('raleway-v18-latin-regular.woff2'), format('woff2')
+         url('raleway-v18-latin-regular.woff2'), format('woff2'),
 }
 
 a
@@ -15,7 +15,7 @@ a
     color: black;
 }
 
-@media screen and (min-width: 901px)
+@media screen and (min-width: 1080px)
 {
 
     header
@@ -107,9 +107,9 @@ a
     
     .hover_link:hover
     {
-        color: blue;
+        color: #0065FC;
         padding : 3.9em 0 0 0;
-        border-top : 0.2em solid blue;
+        border-top : 0.2em solid #0065FC;
     }
 
     .balise_hotel
@@ -134,13 +134,13 @@ a
 
     #titre_header
     {
-        margin : 4em;
+        margin-left : 4em;
     }
 
     #titre_gras
     {
         font-weight: bold;
-        color: blue;
+        color: #0065FC;
     }
 
     #barre_de_recherche
@@ -160,8 +160,7 @@ a
     input
     {
         border-radius: 0 0 0 0;
-        height: 2em;
-        border-color: #F2F2F2;
+        height: 2.2em;
         font-family: 'Raleway';
         font-weight: bold;
         box-shadow: none;
@@ -170,7 +169,7 @@ a
 
     #button_recherche
     {
-        height: 2.2em;
+        height: 2.3em;
         border-radius: 0 10px 10px 0;
         text-align: center;
         line-height: 0.2em;
@@ -520,7 +519,7 @@ a
 
     #titre_2
     {
-        margin-left: 4em;
+        margin-left: 5%;
     }
 
     #titre_4
@@ -608,26 +607,6 @@ a
         object-fit: cover;
         height: 100%;
         width: 100%;
-    }
-
-    #logo_sp_photo
-    {
-        min-width: 100%;
-        min-height: 100%;
-        max-width: 100%;
-        max-height: 100%;
-        position: relative;
-        bottom: 13em;
-    }
-    
-    #photo_p
-    {
-        min-width: 100%;
-        max-width: 100%;
-        min-height: 100%;
-        max-height: 100%;
-        position: relative;
-        top: 2em;
     }
 
     .proche
@@ -764,7 +743,7 @@ a
         border-radius: 10px 10px 10px 10px;
         height: 55%;
         overflow: hidden;
-        width: 80%;
+        width: 69.12%;
         box-shadow: 1px 1px 12px #b7aead;
     }
 
@@ -775,7 +754,7 @@ a
         border-radius: 10px 10px 10px 10px;
         height: 55%;
         overflow: hidden;
-        width: 80%;
+        width: 69.12%;
         box-shadow: 1px 1px 12px #DEEBFF;
     }
 
@@ -787,6 +766,8 @@ a
         overflow: hidden;
         width: 80%;
         box-shadow: 1px 1px 12px #b7aead;
+        position: relative;
+        right: 6%;
     }
 
     #balise_photo_activite_pomegues:hover
@@ -797,6 +778,8 @@ a
         overflow: hidden;
         width: 80%;
         box-shadow: 1px 1px 12px #DEEBFF;
+        position: relative;
+        right: 6%;
     }
 
     #balise_photo_activite_frioul
@@ -809,6 +792,8 @@ a
         position: relative;
         top: 5%;
         box-shadow: 1px 1px 12px #b7aead;
+        position: relative;
+        right: 6%;
     }
 
     #balise_photo_activite_frioul:hover
@@ -821,6 +806,8 @@ a
         position: relative;
         top: 5%;
         box-shadow: 1px 1px 12px #DEEBFF;
+        position: relative;
+        right: 6%;
     }
 
     #balise_photo_activite_calanques
@@ -829,8 +816,10 @@ a
         border-radius: 10px 10px 10px 10px;
         height: 55%;
         overflow: hidden;
-        width: 80%;
+        width: 85.547%;
         box-shadow: 1px 1px 12px #b7aead;
+        position: relative;
+        right: 7%;
     }
 
     #balise_photo_activite_calanques:hover
@@ -839,8 +828,10 @@ a
         border-radius: 10px 10px 10px 10px;
         height: 55%;
         overflow: hidden;
-        width: 80%;
+        width: 85.547%;
         box-shadow: 1px 1px 12px #DEEBFF;
+        position: relative;
+        right: 7%;
     }
 
     #balise_photo_activite_notre_dame
@@ -849,8 +840,10 @@ a
         border-radius: 10px 10px 10px 10px;
         height: 25%;
         overflow: hidden;
-        width: 80%;
+        width: 88.015%;
         box-shadow: 1px 1px 12px #b7aead;
+        position: relative;
+        right: 4%;
     }
 
     #balise_photo_activite_notre_dame:hover
@@ -859,8 +852,10 @@ a
         border-radius: 10px 10px 10px 10px;
         height: 25%;
         overflow: hidden;
-        width: 80%;
+        width: 88.015%;
         box-shadow: 1px 1px 12px #DEEBFF;
+        position: relative;
+        right: 4%;
     }
 
     #balise_photo_activite_longchamp
@@ -869,10 +864,12 @@ a
         border-radius: 10px 10px 10px 10px;
         height: 25%;
         overflow: hidden;
-        width: 80%;
+        width: 88.015%;
         position: relative;
         top: 5%;
         box-shadow: 1px 1px 12px #b7aead;
+        position: relative;
+        right: 4%;
     }
 
     #balise_photo_activite_longchamp:hover
@@ -881,17 +878,19 @@ a
         border-radius: 10px 10px 10px 10px;
         height: 25%;
         overflow: hidden;
-        width: 80%;
+        width: 88.015%;
         position: relative;
         top: 5%;
         box-shadow: 1px 1px 12px #DEEBFF;
+        position: relative;
+        right: 4%;
     }
 
     #titre_3
     {
         position: relative;
-        bottom: 2em;
-        left: 2em;
+        bottom: 9%;
+        left: 5%;
     }
 
     #partie_3
@@ -963,7 +962,7 @@ a
 }
 
 
-@media screen and (max-width: 900px)
+@media screen and (max-width: 1079px)
 {
 
     #vue_ordi
@@ -1484,7 +1483,7 @@ a
     }
 
 
-    .logo_p2_p3_photo
+    ._photo
     {
         min-width: 100%;
         min-height: 100%;
@@ -1518,26 +1517,6 @@ a
         bottom: 13em;
         border-radius: 10px 10px 10px 10px;
         box-shadow: 1px 1px 12px #b7aead;
-    }
-
-    #logo_sp_photo
-    {
-        min-width: 100%;
-        min-height: 100%;
-        max-width: 100%;
-        max-height: 100%;
-        position: relative;
-        bottom: 15em;
-    }
-    
-    #photo_p
-    {
-        min-width: 100%;
-        max-width: 100%;
-        min-height: 100%;
-        max-height: 100%;
-        position: relative;
-        top: 2em;
     }
 
     .proche
